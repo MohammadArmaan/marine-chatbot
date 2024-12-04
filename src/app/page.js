@@ -57,7 +57,7 @@ function ChatMessages() {
                   <div
                       className={`max-w-[75%] p-3 rounded-lg shadow-md ${
                           message.type === "user"
-                              ? "bg-blue-500 text-white"
+                              ? "bg-cyan-600 text-white"
                               : "bg-gray-200 text-gray-900"
                       }`}
                   >

@@ -63,7 +63,7 @@ export default function UserPrompt() {
                                 className={`absolute bottom-5 right-2 p-2 rounded-full ${
                                     isPending
                                         ? "bg-gray-400 text-white"
-                                        : "bg-blue-600 hover:bg-blue-700 text-white"
+                                        : "bg-cyan-600 hover:bg-cyan-700 text-white"
                                 }`}
                             >
                                 {isPending ? (
