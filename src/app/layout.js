@@ -1,22 +1,12 @@
-import {
-    ClerkProvider,
-    SignInButton,
-    SignedIn,
-    SignedOut,
-    UserButton,
-} from "@clerk/nextjs";
+import { ClerkProvider } from "@clerk/nextjs";
 import "./globals.css";
+import Navbar from "./Navbar";
 export default function Layout({ children }) {
     return (
         <ClerkProvider>
             <html lang="en">
                 <body>
-                    <SignedOut>
-                        <SignInButton />
-                    </SignedOut>
-                    <SignedIn>
-                        <UserButton />
-                    </SignedIn>
+                    <Navbar />
                     {children}
                 </body>
             </html>
